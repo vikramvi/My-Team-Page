@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.container {
+  margin: 55px;
+}
+
+/* header section info */
+
+.header {
+  display: flex;
+  gap: 25%;
+}
+
+div > h2 {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  color: #000000;
+}
+
+div > h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.header div > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  width: 450px;
+}
+
+/* Pictures section */
+
+.profiles {
+  display: flex;
+  gap: 10%;
+}
+
+.profiles .second {
+  margin-top: 100px;
+}
+
+.img-container {
+  padding: 25px 12px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+div > img {
+  width: 300px;
+  height: 400px;
+}
+
+.img-container > p:first-of-type {
+  position: absolute;
+  transform: rotate(90deg);
+  left: 170px;
+  top: 170px;
+  width: 100%;
+
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+p:nth-child(3n) {
+  color: rgb(25, 0, 255);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.footer > p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #a9a9a9;
+}
